@@ -235,7 +235,7 @@
         document.getElementById('loadingSpinner').classList.add('show');
 
         // Fetch result from API
-        const url = `http://peoplepulse.diu.edu.bd:8189/result?grecaptcha=&semesterId=${semesterId}&studentId=${studentId}`;
+        const url = `https://peoplepulse.diu.edu.bd:8189/result?grecaptcha=&semesterId=${semesterId}&studentId=${studentId}`;
         
         fetch(url)
             .then(response => response.json())
